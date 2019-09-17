@@ -1,0 +1,71 @@
+body{
+    padding: 0px;
+    font-family: cursive;
+    margin: 0px;
+}
+main{
+    background-image: url(../images/IMG-20180726-WA0000.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;    
+}
+nav{
+    position: fixed;
+    margin-top: 0px;
+}
+h2{
+    text-align: center;
+    color: rgb(199, 68, 101);
+}
+li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:active, .info{
+    color: rgb(199, 68, 101);
+}
+footer{
+    background-color: rgb(156, 156, 156);
+    height: 30px;
+}
+.social{
+    width: 34px;
+    height: 34px;
+}
+#hello{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    color: #000000;
+}
+#picme{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+#about{
+    margin-top: 50px;
+    border-radius: 20%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#aboutme{
+    display: inline;
+}
+#contact, #about, #portfolio{
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#foot{
+    color: #ffffff;
+    text-align: right;
+}
